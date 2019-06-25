@@ -721,3 +721,27 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+
+
+
+
+
+.w3-bar-block .w3-bar-item {padding: 16px}
+
+#tex{  
+    height: 100%;
+  font-family: "Inconsolata";
+    font-size: 21px;
+} 
+
+.carousel-inner img {
+    width: 400px;
+    height: 200px;
+  }
+
+a:link 
+{ 
+text-decoration:none; 
+color: black;
+} 
