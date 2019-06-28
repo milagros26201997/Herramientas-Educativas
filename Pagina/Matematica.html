@@ -18,8 +18,9 @@
 <body>   
 <!-- Side Navigation -->
     
+    
 <nav class=" w3-sidebar w3-bar-block w3-black w3-collapse w3-top" style="z-index:3;width:320px;" id="mySidebar">
-  <div class="w3-container w3-display-container w3-padding-1">
+  <div class="w3-container w3-display-container">
 
   <img src="img/Imagen2.png" width="100%" height="100%" > 
       <a href="javascript:void(0)" onclick="w3_close()" title="Close Sidemenu" 
@@ -31,20 +32,22 @@
 
 <a href="Presentacion.html" class="w3-bar-item w3-button w3-pink"><i class="fa fa-hand-o-right w3-margin-right" style="font-size:25px;"></i><strong>H. de Presentación</strong></a>  
       
- <a id="myBtn" onclick="myFunc('Demo1')" class="w3-bar-item w3-button w3-black"><i class="fa fa-external-link w3-margin-right" style="font-size:25px;"></i><strong>H. Organizadores</strong><i class="fa fa-sort w3-margin-left"></i> 
+<a href="Organizadores.html" class="w3-bar-item w3-button w3-purple"><i class="fa fa-hand-o-right w3-margin-right" style="font-size:25px;"></i><strong>H. de Organizadores</strong></a>      
+      
+<a id="myBtn" onclick="myFunc('Demo1')" class="w3-bar-item w3-button w3-black"><i class="fa fa-external-link w3-margin-right" style="font-size:25px;"></i><strong>H. Matemática</strong><i class="fa fa-sort w3-margin-left"></i> 
       </a>
  
            <div id="Demo1" class="w3-hide w3-animate-left">
-            <a id="boton" href="#knovio" class=" w3-button w3-hover-red w3-white">
-                <img src="img/knovio.png" style="width:30%;">     
+             <a id="boton" href="#mathpapa" class=" w3-button w3-hover-red w3-white">
+                <img src="img/mathp.png" style="width:40%;">     
             </a>
-             <a id="boton" href="#knovio" class=" w3-button w3-hover-red w3-white">
-                <img src="img/knovio.png" style="width:30%;">     
+            <a id="boton" href="#geogebra" class=" w3-button w3-hover-red w3-white">
+                <img src="img/geog.png" style="width:60%;">     
             </a>
-             
+            <a id="boton" href="#geogebra" class=" w3-button w3-hover-red w3-white">
+                <img src="img/geog.png" style="width:60%;">     
+            </a>
           </div> 
-      
-  <a href="Matematica.html" class="w3-bar-item w3-button w3-purple"><i class="fa fa-hand-o-right w3-margin-right" style="font-size:25px;"></i><strong>H. de Matemática</strong></a>
   
   <a href="Evaluacion.html" class="w3-bar-item w3-button w3-blue"><i class="fa fa-hand-o-right w3-margin-right" style="font-size:25px;"></i><strong>H. de Evaluación</strong></a>
       
@@ -52,8 +55,6 @@
 
 </div>   
 </nav>
-
-
 
 <!-- Page content -->
 <div class="w3-main" style="margin-left:320px; margin-right:40px; margin-top:10px">
@@ -67,18 +68,19 @@
                   <div class="title-box-2">   
                     
                     <p class="text-center" style="color:blue;font-family:monospace; font-size:30px">
-                      <strong>HERRAMIENTAS DE ORGANIZADORES GRÁFICOS</strong>
+                      <strong>HERRAMIENTAS PARA MATEMÁTICA</strong>
                     </p>
                     <br/>
                     <p id="tex" align="justify" >
-                    Son aplicaciones que nos permite crear organizadores graficos en línea de manera dinámica, la mayoría de ellos ofrecen una gran variedad de diseño o plantillas para poder modificar según tu preferencia, lo bueno de esta herramientas es que podemos trabajar con ello sin la necesidad de instalar ningún programa.</p> 
+                    Las herramientas digitales que ayudan a reforzar el aprendizaje en el área de las matemáticas están divididas en siguientes categorías: algebra, aritmética, trigonometría, etc. Existen diversas herramientas que nos ayudaran a presentar los conceptos de forma más visual e interactiva, permiten relacionar las Matemáticas con otros aspectos de la vida para que resulten más accesibles a cualquier edad y añaden un componente lúdico que las hace mucho más atractivas.</p> 
                      <br/>
                     <p id="tex" align="justify" style="color:#000080" >
                     <strong>A continuación se mostrara una lista de Herramientas más utilizadas:</strong></p>
                     <br/>
-                    <p> &nbsp; &nbsp; &nbsp;<img src="img/min.jpg" alt="Video"  width="100" height="80">&nbsp;&nbsp;&nbsp;
-                      <a class="title-left" href="https://prezi.com/es/" target="_blank">
-                      MINDOMO
+                      
+                    <p id="geogebra"> &nbsp; &nbsp; &nbsp;<img src="img/geo.png" alt="Video"  width="70" height="70">&nbsp;&nbsp;&nbsp;
+                      <a class="title-left" href="https://www.geogebra.org/graphing?lang=es" target="_blank">
+                      GeoGebra
                       </a></p>
                    <div class="col-sm-7">                  
                     <div id="demo" class="carousel slide" data-ride="carousel" style="margin-left:10px">
@@ -93,13 +95,13 @@
                         <!-- The slideshow -->
                         <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="img/min1.jpg" alt="">
+                        <img src="img/geo1.png" alt="">
                         </div>
                         <div class="carousel-item">
-                        <img src="img/min2.PNG" alt="">
+                        <img src="img/geo2.png" alt="">
                         </div>
                         <div class="carousel-item">
-                        <img src="img/min3.jpg" alt="" >
+                        <img src="img/geo3.png" alt="" >
                     </div>
                             
                         <!-- Left and right controls -->
@@ -119,12 +121,13 @@
                     </h6>
                     <br/>
                     <ul id="tex">
-                        <li>Disponibilidad de varios formatos.</li>
-                        <li>Trabajar de manera ON-LINE.</li>
-                        <li>Los mapas creados se pueden compartir y exportar.</li>
-                        <li>Se puede exportar los mapas como imagen.</li> 
-                        <li>Se puede crear mapas mentales y conceptuales</li>
-                        <li>Ofrece una versión gratuita.</li>           
+                        <li>software libre con licencia GPL para cualquier uso no comercial.</li>
+                        <li>Permite realizar acciones matemáticas como demostraciones, supuestos, análisis, experimentaciones, deducciones, etc.</li>
+                        <li>Puedes trabajar de manera online o descangando a tu PC.</li>
+                        <li>Es gratuito y de código abierto</li> 
+                        <li>Combina geometría, álgebra y cálculo.</li>
+                        <li>Está disponible en español, incluido el manual de ayuda.
+</li>           
                     </ul>
                     <br/>
                     <h5 class="title-left" >Tutoriales</h5>
@@ -133,17 +136,17 @@
                 <table class="table table-borderless">
                 <thead>
                     <tr>                   
-                        <th > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="doc/Mindomo.pdf" target="_blank"><img src="img/Imagen4.png" alt="Docuento" width="70" height="70" ></a>
+                        <th > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="doc/geogebra.pdf" target="_blank"><img src="img/Imagen4.png" alt="Docuento" width="70" height="70" ></a>
                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-                        <a href="https://www.youtube.com/watch?v=NWwcmcqgY_o" target="_blank"><img src="img/Imagen5.png" alt="Video"  width="80" height="80"></a></th>
+                        <a href="https://www.youtube.com/watch?v=Wkb9eW4uQP0" target="_blank"><img src="img/Imagen5.png" alt="Video"  width="80" height="80"></a></th>
                         <th ></th>
                     </tr>
                 </thead>
                     <tbody>
                         <tr> 
-                            <td> &nbsp; &nbsp; &nbsp;<strong>Por:</strong> Duran J. 
+                            <td> &nbsp; &nbsp; &nbsp;<strong>Por:</strong> Hohenwarter M. y Hohenwarter J. 
                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                            <strong>Por:</strong>Secundaria Online</td>
+                            <strong>Por:</strong>Soy Matemáticas</td>
                             <td></td>        
                         </tr>
                     </tbody>
@@ -154,9 +157,9 @@
                 <br/>
                       
             
-                <p> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<img src="img/CM.jpg" alt="Video"  width="100" height="80">&nbsp;&nbsp;&nbsp;
-                      <a class="title-left" href="https://www.emaze.com/es/" target="_blank">
-                      Cmaptools 
+                <p id="mathpapa"> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<img src="img/math.png" alt="Video"  width="90" height="80">&nbsp;&nbsp;&nbsp;
+                      <a class="title-left" href="https://www.mathpapa.com/" target="_blank">
+                      MathPapa 
                       </a></p>
                     <div class="col-sm-7">                  
                     <div id="demo1" class="carousel slide" data-ride="carousel" style="margin-left:10px">
@@ -171,13 +174,13 @@
                         <!-- The slideshow -->
                         <div class="carousel-inner float-">
                         <div class="carousel-item active">
-                        <img src="img/CM1.gif" alt="">
+                        <img src="img/math1.png" alt="">
                         </div>
                         <div class="carousel-item">
-                        <img src="img/CM2.jpg" alt="">
+                        <img src="img/math2.png" alt="">
                         </div>
                         <div class="carousel-item">
-                        <img src="img/CM3.jpg" alt="" >
+                        <img src="img/math3.png" alt="" >
                     </div>               
                         <!-- controles -->
                         <a class="carousel-control-prev" href="#demo1" data-slide="prev">
@@ -195,13 +198,14 @@
                     </h6>
                     <br/>
                     <ul id="tex">
-                        <li>Crear mapas conceptuales de manera muy sencilla e intuitiva.</li>
-                        <li>Se adapta a cualquier sistema operativo.</li>
-                        <li>Te da la posibilidad de crear 5 organizadores.</li>
+                        <li>Evalúa expresiones.</li>
+                        <li>Totalmente libre</li>
+                        <li>Puedes instalarlo en tu celular.</li>
                         <li>Te permite insertar imagenes o videos.</li> 
                         <li>Tiene plantillas pre-diseñadas.</li>
-                        <li>Te permite exportar en distintos formatos.</li>
-                        <li>Te permite poner anotaciones en el mapa.</li> 
+                        <li>Resuelve ecuaciones lineales y cuadráticas.</li>
+                        <li> Resuelve las operaciones paso a paso.</li> 
+                         <li>Resuelve sistemas de dos ecuaciones. </li> 
                     </ul>
                     <br/>
                     <h5 class="title-left" >Tutoriales</h5>
@@ -210,17 +214,15 @@
                 <table class="table table-borderless">
                 <thead>
                     <tr>                   
-                        <th > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="doc/Cmaptools.pdf" target="_blank"><img src="img/Imagen4.png" alt="Docuento" width="70" height="70" ></a>
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-                        <a href="https://www.youtube.com/watch?v=FSG-GCU4wQE" target="_blank"><img src="img/Imagen5.png" alt="Video"  width="80" height="80"></a></th>
+                        <th > 
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://www.youtube.com/watch?v=6VGWNlsrAek" target="_blank"><img src="img/Imagen5.png" alt="Video"  width="80" height="80"></a></th>
                         <th ></th>
                     </tr>
                 </thead>
                     <tbody>
                         <tr>                          
-                            <td> &nbsp; &nbsp; &nbsp;<strong>Por:</strong> Gomez L.
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            <strong>Por:</strong>Banderas S.</td>
+                            <td> 
+                            <strong>Por:</strong> Matemáticas y Tecnologías</td>
                             <td></td>        
                         </tr>
                     </tbody>
@@ -228,9 +230,16 @@
                  </div>
                 <br/>
                 <br/>
-                         
                 
-    
+                
+                      
+                </div>    
+               </div>                      
+              </div>
+            </div>
+          </div>
+        </div>
+                    
 <a href="#" class="back-to-top" ><i class="fa fa-chevron-up" style=margin-left:1320px;></i></a>
 
 
