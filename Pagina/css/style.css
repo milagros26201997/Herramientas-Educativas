@@ -174,9 +174,9 @@ h6 {
 
 .navbar-b {
   transition: all .5s ease-in-out;
-  background-color: transparent;
-  padding-top: 1rem;
-  padding-bottom: 1.563rem;
+  background-color: black;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .navbar-b.navbar-trans .nav-item,
@@ -736,13 +736,17 @@ footer .credits a {
 } 
 
 .carousel-inner img {
-    width: 500px;
-    height: 300px;
+    width: 550px;
+    height: 270px;
+    
   }
 
 a:link 
 { 
 text-decoration:none; 
-color:blue;
+color:black;
 } 
 
+#boton {border: 2px solid black;
+border-radius: 20px;
+ }
